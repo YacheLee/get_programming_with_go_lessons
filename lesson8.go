@@ -11,5 +11,4 @@ func main() {
 	const years = distance / lightSpeed / secondsPerDay / daysPerYear
 
 	fmt.Println("Canis Major Dwarf Galaxy is", years, "light years away")
-	//fmt.Println("That is", distance)
 }
