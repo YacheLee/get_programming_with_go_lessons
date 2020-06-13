@@ -15,7 +15,7 @@ type location struct {
 }
 
 type gps struct {
-	world       world
+	world
 	current     location
 	destination location
 }
@@ -59,7 +59,7 @@ func main() {
 	}
 
 	curiosity := rover{
-		gps: gps,
+		gps,
 	}
 
 	fmt.Println(curiosity.message())
